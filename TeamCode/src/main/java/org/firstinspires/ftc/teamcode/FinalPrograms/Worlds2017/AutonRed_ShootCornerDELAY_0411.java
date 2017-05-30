@@ -66,6 +66,8 @@ public class AutonRed_ShootCornerDELAY_0411 extends LinearVisionOpMode {
         telemetry.addData("Ready", "Ready to start.");
 
         waitForStart();
+        
+        robot.delay(10000); //delay for 10 seconds
 
         robot.lineTracker.enableLed(false);
 
