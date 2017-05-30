@@ -63,7 +63,7 @@ public class AutonBlue_ShootCornerDELAY_0411 extends LinearVisionOpMode {
 
         waitForStart();
         
-        robot.delay(10000); //delay for 10 seconds
+        robot.delay(10000, this); //delay for 10 seconds
 
         robot.lineTracker.enableLed(false);
 
