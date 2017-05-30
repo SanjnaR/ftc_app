@@ -653,8 +653,6 @@ public class Hardware0419 {
             runtime.reset();
             while (opMode.opModeIsActive() && (runtime.seconds() < 0.1)) {
                 pauseDrive();
-
-
             }
 
             encoderDriveStrafe(!direction, DRIVE_SPEED, 4.0, 4.0, 6, opMode);
@@ -676,15 +674,20 @@ public class Hardware0419 {
             runtime.reset();
             while (opMode.opModeIsActive() && (runtime.seconds() < 0.1)) {
                 pauseDrive();
-
-
             }
+            
             pauseDrive();
-
-
+            
             encoderDriveStrafe(!direction, DRIVE_SPEED, 4.0, 4.0, 6, opMode);
-
+            
             pauseDrive();
+        }
+        
+        public void delay(double s, LinearOpMode opMode) {
+            runtime.reset();
+            while (opMode.opModeIsActive() && (runtime.seconds() < s)) {
+                pauseDrive();
+            } 
         }
 
 
