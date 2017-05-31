@@ -41,6 +41,21 @@ import org.lasarobotics.vision.opmode.VisionOpMode;
 
 import org.opencv.core.Size;
 
+/*
+ * Alliance: RED
+ * Objective: 
+ *    Score two particle 
+ *    Hit both beacons
+ *    Knock cap ball off of wooden base
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Computer vision
+ *    Encoder drive
+ *    IMU auto alignment    
+ * Other: N/A
+*/
+
+
 @Autonomous(name = "Far Red: WORLDS Beacon & Cap", group = "Red")
 // Uncomment this to add to the opmode list
 
