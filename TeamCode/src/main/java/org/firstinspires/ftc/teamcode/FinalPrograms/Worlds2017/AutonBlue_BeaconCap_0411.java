@@ -51,6 +51,20 @@ import org.lasarobotics.vision.opmode.extensions.CameraControlExtension;
 import org.lasarobotics.vision.util.ScreenOrientation;
 import org.opencv.core.Size;
 
+/*
+ * Alliance: BLUE
+ * Objective: 
+ *    Score two particle 
+ *    Hit both beacons
+ *    Knock cap ball off of wooden base
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Computer vision
+ *    Encoder drive
+ *    IMU auto alignment    
+ * Other: N/A
+*/
+
 
 @Autonomous(name = "Blue: Worlds Beacon & Cap", group = "Blue")
 //@Disabled                            // Uncomment this to add to the opmode list
