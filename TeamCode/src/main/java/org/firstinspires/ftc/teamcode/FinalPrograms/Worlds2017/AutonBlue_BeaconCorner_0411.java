@@ -31,17 +31,25 @@ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 package org.firstinspires.ftc.teamcode.FinalPrograms.Worlds2017;
-
-
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-
 import org.lasarobotics.vision.android.Cameras;
-
 import org.lasarobotics.vision.opmode.LinearVisionOpMode;
 import org.lasarobotics.vision.opmode.VisionOpMode;
-
 import org.opencv.core.Size;
 
+/*
+ * Alliance: BLUE
+ * Objective: 
+ *    Score two particle 
+ *    Hit both beacons
+ *    Park on corner vortex
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Computer vision
+ *    Encoder drive
+ *    IMU auto alignment    
+ * Other: N/A
+*/
 
 @Autonomous(name = "Blue: WORLDS Beacon & Corner", group = "Blue")
 //@Disabled                            // Uncomment this to add to the opmode list
