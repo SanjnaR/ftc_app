@@ -50,6 +50,19 @@ import org.lasarobotics.vision.opmode.extensions.CameraControlExtension;
 import org.lasarobotics.vision.util.ScreenOrientation;
 import org.opencv.core.Size;
 
+/*
+ * Alliance: RED
+ * Objective: 
+ *    Score two particle 
+ *    Hit both beacons
+ *    Park on corner vortex
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Computer vision
+ *    Encoder drive
+ *    IMU auto alignment    
+ * Other: N/A
+*/
 
 @Autonomous(name = "FAR Red: WORLDS Beacon & Corner", group = "Red")
 //@Disabled                            // Uncomment this to add to the opmode list
