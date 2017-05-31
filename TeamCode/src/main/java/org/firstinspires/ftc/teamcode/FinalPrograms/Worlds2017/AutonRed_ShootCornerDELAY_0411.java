@@ -39,8 +39,19 @@ import org.lasarobotics.vision.opmode.LinearVisionOpMode;
 import org.lasarobotics.vision.opmode.VisionOpMode;
 import org.opencv.core.Size;
 
+/*
+ * Alliance: BLUE
+ * Objective: 
+ *    Score two particle 
+ *    Park on corner vortex
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Encoder drive 
+ * Other: 10 second delay
+*/
 
-@Autonomous(name = "Red: WORLDS Shoot & Corner 12s", group = "Robot")
+
+@Autonomous(name = "Red: WORLDS Shoot & Corner 10s", group = "Robot")
 //@Disabled                            // Uncomment this to add to the opmode list
 public class AutonRed_ShootCornerDELAY_0411 extends LinearVisionOpMode {
     Hardware0419 robot = new Hardware0419();
