@@ -3,11 +3,12 @@
 <i>OpModes needed 2017 programs</i>
 <br>
 <br>
-These include: <br>
-  Basic Vision Sample <br>
-  Hardware for 12/25 robot<br>
-  Linear Vision Sample <br>
-  Vision OpMode <br>
-  Adafrutit IMU Sample <br>
-
+These include:
+<ul>
+  <li>Basic Vision Sample </li>
+  <li>Hardware for 12/25 robot </li>
+  <li>Linear Vision Sample </li>
+  <li>Vision OpMode </li>
+  <li>Adafrutit IMU Sample </li>
+</ul>
 Created by Sanjna Ravichandar in March-April 2017
