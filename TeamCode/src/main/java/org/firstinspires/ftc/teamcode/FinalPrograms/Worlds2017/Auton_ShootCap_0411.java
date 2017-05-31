@@ -48,6 +48,17 @@ import org.lasarobotics.vision.opmode.extensions.CameraControlExtension;
 import org.lasarobotics.vision.util.ScreenOrientation;
 import org.opencv.core.Size;
 
+/*
+ * Alliance: RED/BLUE
+ * Objective: 
+ *    Score two particle 
+ *    Knock cap ball off of wooden base
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Encoder drive
+ * Other: N/A
+*/
+
 
 @Autonomous(name = "2R/B: WORLDS Shoot & Cap", group = "Robot")
 //@Disabled                            // Uncomment this to add to the opmode list
