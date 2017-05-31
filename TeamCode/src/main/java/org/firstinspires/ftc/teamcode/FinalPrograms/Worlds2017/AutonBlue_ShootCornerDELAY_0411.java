@@ -40,6 +40,17 @@ import org.lasarobotics.vision.opmode.VisionOpMode;
 
 import org.opencv.core.Size;
 
+/*
+ * Alliance: BLUE
+ * Objective: 
+ *    Score two particle 
+ *    Park on corner vortex
+ * Enhancements: 
+ *    Hall Switch speed control 
+ *    Encoder drive  
+ * Other: 10 seconds delay
+*/
+
 
 @Autonomous(name = "BLUE: WORLDS Shoot & Corner 12s", group = "Robot")
 //@Disabled                            // Uncomment this to add to the opmode list
