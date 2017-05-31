@@ -11,5 +11,4 @@ These include:
   <li>Vision OpMode </li>
   <li>Adafrutit IMU Sample </li>
 </ul>
-<br>
-Created by Sanjna Ravichandar in March-April 2017
+<br>Created by Sanjna Ravichandar in March-April 2017
