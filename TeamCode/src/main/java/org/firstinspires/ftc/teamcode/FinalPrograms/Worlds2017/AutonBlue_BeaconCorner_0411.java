@@ -31,11 +31,7 @@ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 package org.firstinspires.ftc.teamcode.FinalPrograms.Worlds2017;
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import org.lasarobotics.vision.android.Cameras;
-import org.lasarobotics.vision.opmode.LinearVisionOpMode;
-import org.lasarobotics.vision.opmode.VisionOpMode;
-import org.opencv.core.Size;
+
 
 /*
  * Alliance: BLUE
