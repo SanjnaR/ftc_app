@@ -14,10 +14,6 @@ import org.firstinspires.ftc.teamcode.FinalPrograms.WAGSAdafruitIMU;
 
 import android.graphics.Color;
 
-import org.lasarobotics.vision.ftc.resq.Beacon;
-import org.lasarobotics.vision.opmode.LinearVisionOpMode;
-import org.lasarobotics.vision.opmode.extensions.CameraControlExtension;
-import org.lasarobotics.vision.util.ScreenOrientation;
 
 
 /**
